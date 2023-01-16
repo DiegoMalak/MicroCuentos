@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margen_general"
+    tools:context=".LeeCuentoActivity">
+
+    <TextView
+        android:id="@+id/tvTituloC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamano_titulo_leecuento"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Provisional"
+        />
+
+    <TextView
+        android:id="@+id/tvTextoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTituloC"
+        android:layout_marginTop="@dimen/margen_general"
+        android:textSize="@dimen/tamano_texto_leecuento"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="Provisional 2"
+        />
+
+</RelativeLayout>

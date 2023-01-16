@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/margen_general"
+    >
+
+    <TextView
+        android:id="@+id/tvTituloInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_inicio"
+        android:textSize="@dimen/tamanio_titulo"
+        />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/hint_et_nombre"
+        android:inputType="text"
+        android:textSize="@dimen/tamanio_nombre_et"
+        />
+
+    <Button
+        android:id="@+id/btnEmpezar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombre"
+        android:text="@string/btn_txt_empezar"
+        android:textSize="@dimen/tamanio_button"
+        android:textColor="@color/colorPrimary"
+        />
+
+</RelativeLayout>
