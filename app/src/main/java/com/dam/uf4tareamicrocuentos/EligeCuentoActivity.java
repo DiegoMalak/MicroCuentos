@@ -48,6 +48,7 @@ public class EligeCuentoActivity extends AppCompatActivity implements View.OnCli
     }
 
     private void configurarRV() {
+        // Lo que hace es darle un tamaño fijo a los elementos de la lista.
         rv.setHasFixedSize(true);
 
         // El RecyclerView necesita un LayoutManager para poder mostrar los elementos.
